@@ -25,7 +25,7 @@ namespace sdds
 			}
 		}
 
-		in.clear();
+		in.clear()
 		in.seekg(std::ios::beg);
 
 		m_strings = new std::string[no_of_strings];
